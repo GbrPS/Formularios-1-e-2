@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 1</title>
+
+
+    <style>
+        form{
+            border: 22px double red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18pt;
+            width: 400px;
+            height: 400px;
+            text-shadow: 50px cornflowerblue;
+        }
+        #Valor1{
+            background-color: yellow;
+        }
+        #Valor2{
+            background-color: yellow;
+        }
+        #resul{
+            background-color: yellow;
+    
+
+        }
+        
+    </style>
+
+
+</head>
+<body>
+    <form>
+        
+        <label for="Valor1"><b>Valor 1:</b></label>
+        <input type="number" name="campoValor1" id="Valor1" />
+        <br/>
+
+        <label for="Valor2"><b>Valor 2:</b></label>
+        <input type="number" name="campoValor2" id="Valor2"/>
+        <br/>
+
+        <p><b>Opções:</b></p>
+        <input type="radio" name="campoMate" value="soma" id="soma"> <label for="soma">Soma</label><br/>
+        <input type="radio" name="campoMate" value="sub" id="sub"> <label for="sub">Subtração</label></br>
+        <input type="radio" name="campoMate" value="mult" id="mult"> <label for="mult">Multiplicação</label><br/>
+        <input type="radio" name="campoMate" value="div" id="div"> <label for="div">Divisão</label><br/>
+
+        <b>Resultado:</b><br/>
+        <input type="name" name="campoMate"  id="resul"><br/><br/>
+        <input type="button" name="campoMate" value="calcular" id="calcu">
+
+    </form>
+</body>
+</html>
